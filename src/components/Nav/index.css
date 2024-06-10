@@ -1,9 +1,10 @@
 .animated-link {
     color: white; 
+    font-size: 22px;
     text-decoration: none;
     position: relative;
     transition: color 0.3s, border-color 0.3s;
-    padding: .2em 1em;
+    padding: .3em 1em;
 }
   
 .animated-link::after {

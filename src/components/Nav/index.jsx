@@ -72,7 +72,7 @@ export default function Nav () {
                         </Drawer>
                    </Hidden>
                    <Hidden mdDown>
-                   <img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1718045700/yael_portfolio_2024/svg/Logo_dxavj6.svg" alt="logo" style={{width:'50px', paddingTop: '1em'}}/>
+                    <img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1718045700/yael_portfolio_2024/svg/Logo_dxavj6.svg" alt="logo" style={{width:'50px', paddingTop: '1em'}}/>
                     <Box sx={{display: 'flex', justifyContent: 'center', width: '100%'}}>
                         {navlist.map((list)=>(
                             <a href={list.link} key={list.id} className="variant-nav animated-link">

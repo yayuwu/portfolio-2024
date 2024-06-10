@@ -1,0 +1,8 @@
+.journey-title {
+    background: rgb(151,223,252);
+    background: linear-gradient(63deg, rgba(151,223,252,1) 0%, rgba(133,138,227,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;  
+    font-size: 32px;
+}

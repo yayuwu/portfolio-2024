@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-family: "Andika", sans-serif;;
+}
+
+body {
+  background-color: #161618;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*! Tipografía variantes */
+
+.variant-h1 {
+  font-size: 128px;
+}
+
+.variant-h2 {
+  font-size: 48px;
+}
+
+.variant-h3 {
+  font-size: 32px;
+}
+
+.variant-h4 {
+  font-size: 64px;
+}
+
+.variant-p {
+  font-size: 28px;
+}
+
+.variant-nav {
+  font-size: 22px;
+}

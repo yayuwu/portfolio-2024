@@ -38,11 +38,33 @@ export default function Section3 () {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024, // Define el ancho del punto de ruptura para tabletas grandes y laptops
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 600, // Define el ancho del punto de ruptura para teléfonos móviles
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
       };
     
     return (
         <Box sx={{marginTop: '4em'}} id= "journey">
-            <Typography variant="h2" color="#97DFFC" fontFamily="Andika, sans-serif" fontSize="64px" margin="2em 0 1em 2em">— My Journey</Typography>
+            <Typography variant="h2" color="#97DFFC" fontFamily="Andika, sans-serif"
+            sx={{
+                margin: {xs: "1em 0 1em 1em",sm: "2em 0 1em 2em"},
+                fontSize: {xs: "44px", sm: "64px"}
+            }}>
+                — My Journey
+            </Typography>
             <Box sx={{marginTop: '2em', display: "flex", justifyContent: 'center'}}>
                 <div className="slider-container">
                    <Slider {...settings}>

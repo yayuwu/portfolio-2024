@@ -4,5 +4,11 @@
     -webkit-background-clip: text;
     background-clip: text; 
     color: transparent;  
-    font-size: 32px;
+    font-size: 22px;
+}
+
+@media (min-width: 900px) {
+    .journey-title {
+        font-size: 32px;
+    }
 }

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Nav from './components/Nav'
 import Section1 from './components/Sections/Section1'
 import Section2 from './components/Sections/Section2'
@@ -7,15 +6,13 @@ import Section4 from './components/Sections/Section4'
 import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Nav/>
-      <Section1/>
-      <Section2/>
-      <Section3/>
-      <Section4/>
+      <Section1/> {/*Introduction*/}
+      <Section2/> {/*Portfolio*/}
+      <Section3/> {/*My journey*/}
+      <Section4/> {/*Skills*/}
       <Footer/>
     </>
   )

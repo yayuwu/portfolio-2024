@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "skill": "JavaScript",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213264/yael_portfolio_2024/icons%20skills/Javascript_icon_meai0w.svg"
+    },
+    {
+        "id": 2,
+        "skill": "React Js",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213241/yael_portfolio_2024/icons%20skills/React_icon_bhzmon.svg"
+    },
+    {
+        "id": 3,
+        "skill": "Node Js",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213240/yael_portfolio_2024/icons%20skills/node_js_icon_jwf1eh.svg"
+    },
+    {
+        "id": 4,
+        "skill": "Github",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213239/yael_portfolio_2024/icons%20skills/GIthub_icon_voyvly.svg"
+    },
+    {
+        "id": 5,
+        "skill": "Git",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213240/yael_portfolio_2024/icons%20skills/Git_icon_uwrmvo.svg"
+    },
+    {
+        "id": 6,
+        "skill": "Vercel",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213298/yael_portfolio_2024/icons%20skills/Vercel_icon_ialjwp.svg"
+    },
+    {
+        "id": 7,
+        "skill": "Bootstrap",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213238/yael_portfolio_2024/icons%20skills/Bootsrap_icon_xiipgs.svg"
+    },
+    {
+        "id": 8,
+        "skill": "Firebase",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213238/yael_portfolio_2024/icons%20skills/Firebase_icon_uap76j.svg"
+    },
+    {
+        "id": 9,
+        "skill": "Material UI",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213240/yael_portfolio_2024/icons%20skills/Material_ui_icon_nxab35.svg"
+    },
+    {
+        "id": 10,
+        "skill": "Figma",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213238/yael_portfolio_2024/icons%20skills/Figma_icon_ddrkuh.svg"
+    },
+    {
+        "id": 11,
+        "skill": "Headless UI",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213238/yael_portfolio_2024/icons%20skills/Headless_UI_ejowcj.svg"
+    },
+    {
+        "id": 12,
+        "skill": "Vite",
+        "img": "https://res.cloudinary.com/dkfa8olux/image/upload/v1718213260/yael_portfolio_2024/icons%20skills/Vite_icon_plkrzg.svg"
+    }
+]

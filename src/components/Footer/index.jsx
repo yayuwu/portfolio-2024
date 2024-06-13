@@ -6,14 +6,15 @@ import {
 export default function Footer () {
     return (
         <Box sx={{
-            margin: {xs: '4em' ,sm: '4em 8em'}
+            margin: {xs: '3em' ,sm: '4em 8em'}
         }}>
             <hr/>
-            <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
+            <Box sx={{display: 'flex', alignItems: 'center', flexWrap: "wrap", justifyContent: { xs: "center", sm: "space-between"}}}>
                 <Box sx={{marginTop: '1em'}}>
                     <Typography variant="p" color="#97DFFC"
                     sx={{
-                        fontSize: {xs: "10px", sm: "14px"}
+                        fontSize: {xs: "10px", sm: "14px"},
+                        paddingRight: {xs: "1em", sm: "0"}
                     }}>
                         © 2024 
                         <span style={{color: '#858AE3'}}> Yael Correa</span>

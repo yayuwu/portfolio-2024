@@ -18,10 +18,10 @@ export default function Section1 () {
                 maxWidth: '600px',
                 margin: { xs: '0 0 6em 0'}
             }}>
-                <Typography variant="h1" color="#97DFFC" fontFamily= "Andika, sans-serif" fontWeight={700} fontSize="128px"
+                <Typography variant="h1" color="#97DFFC" fontFamily= "Andika, sans-serif" fontWeight={700} 
                 sx={{
-                    textAlign: {xs: "center", md: "left"},
-                    fontSize: {xs: "80px", sm: "128px"}
+                    textAlign: {xs: "center", lg: "left"},
+                    fontSize: {xs: "80px", sm: "100px", lg: "128px"}
                 }}>
                     Yael <span style={{display: 'block'}}>Correa</span>
                 </Typography>
@@ -29,7 +29,7 @@ export default function Section1 () {
                 sx={{ 
                     marginTop: '2em',
                     display: "flex",
-                    justifyContent: {xs: "center", md: "start"}
+                    justifyContent: {xs: "center", lg: "start"}
                 }}>
                     <a href="https://github.com/yayuwu" target="_blank"><img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1714664132/yael_portfolio_2024/svg/jdeblz9ocg3x32yfvt7p.svg" alt="github" className="icon_w icon_m"/></a>
                     <a href="https://api.whatsapp.com/send?phone=541170897175" target="_blank"><img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1714664134/yael_portfolio_2024/svg/javxkmp6vjvavzv4igtx.svg" alt="whatsapp"  className="icon_w icon_m"/></a>
@@ -50,7 +50,7 @@ export default function Section1 () {
                 <Typography variant="p" color="white" fontFamily="Andika, sans-serif" fontSize="28px" 
                 sx={{
                     lineHeight: '1.5em',
-                    fontSize: {xs: '20px', sm: '28px'},
+                    fontSize: {xs: '20px', sm: "22px", lg: '28px'},
                 }}>
                     I focus on web design and development, guaranteeing responsive web and good styles.
                 </Typography>

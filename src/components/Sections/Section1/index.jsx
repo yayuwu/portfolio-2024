@@ -12,11 +12,12 @@ export default function Section1 () {
             flexWrap: 'wrap', 
             paddingBottom: '2em'
         }} >
-            <Box sx={{
+            <Box 
+            sx={{
                 padding: '0 3em', 
                 maxWidth: '600px',
                 margin: { xs: '0 0 6em 0'}
-                }}>
+            }}>
                 <Typography variant="h1" color="#97DFFC" fontFamily= "Andika, sans-serif" fontWeight={700} fontSize="128px"
                 sx={{
                     textAlign: {xs: "center", md: "left"},
@@ -30,9 +31,9 @@ export default function Section1 () {
                     display: "flex",
                     justifyContent: {xs: "center", md: "start"}
                 }}>
-                    <a href="https://github.com/yayuwu" target="_blank"><img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1714664132/yael_portfolio_2024/svg/jdeblz9ocg3x32yfvt7p.svg" alt="github"  style={{width: '50px'}}/></a>
-                    <a href="https://api.whatsapp.com/send?phone=541170897175" target="_blank"><img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1714664134/yael_portfolio_2024/svg/javxkmp6vjvavzv4igtx.svg" alt="whatsapp"  style={{width: '50px', margin: '0 2em 0 4em'}}/></a>
-                    <a href="https://www.linkedin.com/in/yael-correa/" target="_blank"><img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1714664136/yael_portfolio_2024/svg/duvdoysl2juuxiubhquu.svg" alt="linkedin"  style={{width: '50px', margin: '0 2em'}}/></a>
+                    <a href="https://github.com/yayuwu" target="_blank"><img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1714664132/yael_portfolio_2024/svg/jdeblz9ocg3x32yfvt7p.svg" alt="github" className="icon_w icon_m"/></a>
+                    <a href="https://api.whatsapp.com/send?phone=541170897175" target="_blank"><img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1714664134/yael_portfolio_2024/svg/javxkmp6vjvavzv4igtx.svg" alt="whatsapp"  className="icon_w icon_m"/></a>
+                    <a href="https://www.linkedin.com/in/yael-correa/" target="_blank"><img src="https://res.cloudinary.com/dkfa8olux/image/upload/v1714664136/yael_portfolio_2024/svg/duvdoysl2juuxiubhquu.svg" alt="linkedin"  className="icon_w icon_m"/></a>
                 </Box>
             </Box>
             <Box 

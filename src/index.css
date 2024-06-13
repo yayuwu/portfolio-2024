@@ -14,3 +14,21 @@ body {
 a {
   text-decoration: none;
 }
+
+.icon_w {
+  width: 30px;
+}
+
+.icon_m {
+  margin: 0 1em;
+}
+
+@media (min-width: 600px) {
+  .icon_w {
+    width: 50px;
+  }
+  
+  .icon_m {
+    margin: 0 2em;
+  }   
+}

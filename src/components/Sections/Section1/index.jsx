@@ -45,16 +45,16 @@ export default function Section1 () {
                     fontSize: {xs: '32px', sm: '48px'}
                 }}>
                     Front End Developer 
-                    <span style={{display:'block'}}>based in Buenos Aires</span>
+                    {/* <span style={{display:'block'}}></span> */}
                 </Typography>
                 <Typography variant="p" color="white" fontFamily="Andika, sans-serif" fontSize="28px" 
                 sx={{
                     lineHeight: '1.5em',
-                    fontSize: {xs: '20px', sm: "22px", lg: '28px'},
+                    fontSize: {xs: '20px', sm: "22px", lg: '26px'},
                 }}>
-                    I focus on web design and development, guaranteeing responsive web and good styles.
+                    Tengo experiencia en el desarrollo de interfaces de usuario atractivas y funcionales, donde también me mantengo actualizada con las últimas tendencias y mejores prácticas en el desarrollo web para ofrecer soluciones innovadoras y eficientes.
                 </Typography>
-                <a href="" target="_blank"><Typography variant="p" color="#97DFFC" fontFamily="Andika, sans-serif" fontSize="32px" sx={{display: 'block', marginTop: '.5em'}}>My CV</Typography></a>
+                <a href="https://drive.google.com/file/d/1_S_3Fps4DJn9YyQMYxP3JZieRCk4mCv9/view?usp=drive_link" target="_blank"><Typography variant="p" color="#97DFFC" fontFamily="Andika, sans-serif" fontSize="32px" sx={{display: 'block', marginTop: '.5em'}}>My CV</Typography></a>
             </Box>
         </Box>
     )

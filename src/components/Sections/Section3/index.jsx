@@ -63,7 +63,7 @@ export default function Section3 () {
                 margin: {xs: "1em 0 1em 1.5em",sm: "2em 0 1em 2em"},
                 fontSize: {xs: "32px", md: "64px"}
             }}>
-                — My Journey
+                — Experiencia
             </Typography>
             <Box sx={{marginTop: '2em', display: "flex", justifyContent: 'center'}}>
                 <div className="slider-container">

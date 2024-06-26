@@ -14,7 +14,7 @@ import './index.css'
 const navlist = [
     {
         id: 1,
-        text: "Home",
+        text: "Inicio",
          link: "#"   
     },
     {
@@ -24,7 +24,7 @@ const navlist = [
     },
     {
         id: 3,
-        text: "My journey",
+        text: "Experiencia",
          link: "#journey"   
     },
     {

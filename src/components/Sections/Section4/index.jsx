@@ -18,8 +18,8 @@ export default function Section4 () {
             <Box display="flex" justifyContent="center">
                 <Grid container spacing={4} margin="2em 0" sx={{ width: {xs: "60%", sm: "70%", md: "80%"}}}>
                     {
-                        skillsData.map((skill) => (
-                            <Grid md={4} sm={6} xs={12}>
+                        skillsData.map((skill, index) => (
+                            <Grid md={4} sm={6} xs={12} key={index}>
                                 <Grid container display="flex" alignItems="center">
                                     <Grid sx={{width: { xs: "40px", md: "50px", lg: "60px" }}}>
                                         <img src={skill.img} alt={skill.id} style={{width: "100%"}}/>

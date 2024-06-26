@@ -68,8 +68,8 @@ export default function Section3 () {
             <Box sx={{marginTop: '2em', display: "flex", justifyContent: 'center'}}>
                 <div className="slider-container">
                    <Slider {...settings}>
-                        {journeycontent.map((journeyitem) => (
-                            <JourneyItem title={journeyitem.date} text={journeyitem.content}/>
+                        {journeycontent.map((journeyitem, index) => (
+                            <JourneyItem title={journeyitem.date} text={journeyitem.content} key={index}/>
                         ))}
                     </Slider>
                 </div>

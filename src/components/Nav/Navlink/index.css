@@ -1,0 +1,22 @@
+.navlink {
+    color: white;
+}
+
+.navlink:hover{
+    color: #97DFFC;
+    cursor: pointer;
+}
+
+.navlink::before {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 0; 
+    height: 2px; 
+    background-color: #97DFFC; 
+    transition: width 0.4s ease; 
+}
+.navlink:hover::before {
+    width: 100%; 
+}

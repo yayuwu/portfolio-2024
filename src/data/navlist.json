@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "link": "#",
+      "text": "Home"
+    },
+    {
+      "id": 2,
+      "link": "#portfolio",
+      "text": "Portfolio"
+    },
+    {
+      "id": 3,
+      "link": "#journey",
+      "text": "My Journey"
+    },
+    {
+      "id": 4,
+      "link": "#skills",
+      "text": "Skills"
+    }
+]
+  

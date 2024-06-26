@@ -4,7 +4,7 @@ import {
  } from "@mui/material";
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
-export default function ProjectItem ({img, title}) {
+export default function ProjectItem ({img, title, onClick}) {
     return (
     <Box
       sx={{
@@ -43,7 +43,11 @@ export default function ProjectItem ({img, title}) {
         '&:hover img': {
           transform: 'scale(1.05)',
         },
+        '&:hover': {
+          cursor: 'pointer'
+        }
       }}
+      onClick={onClick}
     >
       <Box
         className="hover-content-top"
@@ -77,7 +81,7 @@ export default function ProjectItem ({img, title}) {
       </Box>
       <img
         src={img}
-        alt=""
+        alt={title}
         loading="lazy"
       />
     </Box>

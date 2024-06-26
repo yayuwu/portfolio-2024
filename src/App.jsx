@@ -4,6 +4,7 @@ import Section2 from './components/Sections/Section2'
 import Section3 from './components/Sections/Section3'
 import Section4 from './components/Sections/Section4'
 import Footer from './components/Footer'
+import PortfolioModal from './components/Modal'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Section3/> {/*My journey*/}
       <Section4/> {/*Skills*/}
       <Footer/>
+      <PortfolioModal></PortfolioModal>
     </>
   )
 }

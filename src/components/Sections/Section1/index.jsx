@@ -39,24 +39,24 @@ export default function Section1 () {
             </Box>
             <Box 
             sx={{ padding: '0 2em', maxWidth: '600px' }}>
-                <Typography variant="h2" color="#97DFFC" fontFamily="Andika, sans-serif" fontSize="32px">— Introducción</Typography>
+                <Typography variant="h2" color="#97DFFC" fontFamily="Andika, sans-serif" fontSize="32px">— Introduction</Typography>
                 <Typography variant="h3" color="white" fontFamily="Andika, sans-serif"
                 sx={{
                     lineHeight: '1.5em',
                     fontSize: {xs: '32px', sm: '48px'}
                 }}>
                     Front End Developer 
-                    <span style={{display:'block'}}>en Buenos Aires</span>
+                    <span style={{display:'block'}}>based in Buenos Aires</span>
                 </Typography>
                 <Typography variant="p" color="white" fontFamily="Andika, sans-serif" fontSize="28px" 
                 sx={{
                     lineHeight: '1.5em',
                     fontSize: {xs: '20px', sm: "22px", lg: '24px'},
                 }}>
-                    Tengo experiencia en el desarrollo de interfaces de usuario atractivas y funcionales, donde también me mantengo actualizada con las últimas tendencias y mejores prácticas.
+                    I have experience in developing attractive and functional user interfaces, while also staying updated with the latest trends and best practices.
                 </Typography>
                 <a href="https://drive.google.com/file/d/1_S_3Fps4DJn9YyQMYxP3JZieRCk4mCv9/view?usp=drive_link" target="_blank" style={{display: 'flex', alignItems: 'center'}}>
-                    <Typography variant="p" color="#97DFFC" fontFamily="Andika, sans-serif" fontSize="32px" sx={{display: 'block', marginTop: '.5em'}}>Mi CV</Typography>
+                    <Typography variant="p" color="#97DFFC" fontFamily="Andika, sans-serif" fontSize="32px" sx={{display: 'block', marginTop: '.5em'}}>My CV</Typography>
                     <ArrowOutwardIcon sx={{ fill: "#97DFFC", marginLeft: "3px" }} />
                 </a>
             </Box>

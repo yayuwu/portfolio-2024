@@ -10,23 +10,27 @@ import './index.css'
 const journeycontent = [
     {
         date: "AGO / 2023",
-        content: "Realicé el curso de FullStack Node.js de 4 meses"
+        content: "I completed the 4-month FullStack Node.js course"
     },
     {
         date: "DIC / 2023",
-        content: "Realicé el Bootcamp de React de 2 meses"
+        content: "I completed the 2-month React Bootcamp"
     },
     {
         date: "FEB / 2024",
-        content: "Empecé a trabajar en Semillero LATAM"
+        content: "I started working at Semillero LATAM"
     },
     {
         date: "MAY / 2024",
-        content: "Arranqué la capacitación de Fundación Pescar de Full Stack"
+        content: "I started the Full Stack training at Fundación Pescar."
     },
     {
         date: "JUN / 2024",
-        content: "Arranqué la Tecnicatura en Sistemas de Información"
+        content: "I started the Technical Degree in Information Systems"
+    },
+    {
+        date: "NOV / 2024",
+        content: "I completed my development training with the support of JP Morgan, Pampa Energía, and Fundación Pescar."
     },
 ]
 
@@ -63,7 +67,7 @@ export default function Section3 () {
                 margin: {xs: "1em 0 1em 1.5em",sm: "2em 0 1em 2em"},
                 fontSize: {xs: "32px", md: "64px"}
             }}>
-                — Experiencia
+                — Experience
             </Typography>
             <Box sx={{marginTop: '2em', display: "flex", justifyContent: 'center'}}>
                 <div className="slider-container">

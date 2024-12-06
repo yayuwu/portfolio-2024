@@ -55,7 +55,7 @@ export default function Section1 () {
                 }}>
                     I have experience in developing attractive and functional user interfaces, while also staying updated with the latest trends and best practices.
                 </Typography>
-                <a href="https://drive.google.com/file/d/1_S_3Fps4DJn9YyQMYxP3JZieRCk4mCv9/view?usp=drive_link" target="_blank" style={{display: 'flex', alignItems: 'center'}}>
+                <a href="https://drive.google.com/file/d/10e2K19HFqRnW2gFroZIlcEBr_aWTpCJG/view?usp=sharing" target="_blank" style={{display: 'flex', alignItems: 'center'}}>
                     <Typography variant="p" color="#97DFFC" fontFamily="Andika, sans-serif" fontSize="32px" sx={{display: 'block', marginTop: '.5em'}}>My CV</Typography>
                     <ArrowOutwardIcon sx={{ fill: "#97DFFC", marginLeft: "3px" }} />
                 </a>
